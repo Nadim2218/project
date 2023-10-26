@@ -1,0 +1,572 @@
+/* slide part end */
+
+html,
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #0f1217!important;
+    overflow-y: hidden;
+}
+
+main {
+    overflow-x: hidden;
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
+}
+
+
+/* slide part end */
+
+
+/* nav part start */
+
+.menu-wrapper {
+    /* max-width: 500px; */
+    height: 52px;
+    padding: 0 270px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu-wrapper .menu-item {
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #212224;
+    border-radius: 20px;
+}
+
+.menu-wrapper .menu-item a {
+    display: inline-block;
+    padding: 12px 17px;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.menu-wrapper .menu-item a:hover {
+    text-decoration: none;
+}
+
+.menu-wrapper .menu-item a:first-child {
+    padding-left: 5px;
+}
+
+.menu-wrapper .menu-item::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-wrapper .pointer {
+    height: 40px;
+    width: 30px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+.menu-wrapper .pointer i {
+    color: #333;
+    cursor: pointer;
+}
+
+.menu-wrapper .left-pointer {
+    left: 0;
+}
+
+.menu-wrapper .right-pointer {
+    right: 0;
+}
+
+.menu-wrapper .dis i {
+    color: #ccc;
+}
+
+.active {
+    color: red;
+}
+
+.menu-wrapper .right-pointer {
+    right: 0;
+    display: none;
+}
+
+.menu-wrapper .left-pointer {
+    display: none;
+}
+
+.side-content {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.side-content p {
+    width: 201px;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    padding-right: 47px;
+}
+
+.side-content-two p {
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.logo {
+    padding-top: 40px;
+    z-index: 99999;
+}
+
+.logo svg {
+    position: fixed;
+    z-index: 99999;
+}
+
+
+/* nav part end */
+
+
+/* intro part start */
+
+#inro {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-text {
+    text-align: left;
+    z-index: 999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text p {
+    width: 700px;
+    font-size: 28px;
+    color: #cccccc;
+}
+
+
+/* intro part end */
+
+
+/* ///////mobile part start */
+
+#mobile {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-text p {
+    font-size: 22px;
+    color: white;
+}
+
+.mobile-text h3 {
+    font-size: 70px;
+    width: 50px;
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+.mobile-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-logo-one img {
+    width: 60%;
+}
+
+.m-logo-one {
+    position: relative;
+}
+
+.mobile-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.m-logo-one::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 42px;
+    width: 2px;
+    height: 65px;
+    background: white;
+}
+
+.mobile-img-one img {
+    position: relative;
+}
+
+.mobile-img-two img {
+    position: absolute;
+    top: 164px;
+    left: 180px;
+    height: 60%;
+    width: 65%;
+}
+
+
+/* mobile part end */
+
+
+/* commerce part start */
+
+#commerce {
+    width: 100%;
+    height: 100%;
+}
+
+.commerce-text p {
+    font-size: 22px;
+    color: white;
+}
+
+.commerce-text h3 {
+    font-size: 70px;
+    width: 50px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.commerce-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-logo-one img {
+    width: 60%;
+}
+
+.c-logo-one {
+    position: relative;
+}
+
+.commerce-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.c-logo-one::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 42px;
+    width: 2px;
+    height: 65px;
+    background: white;
+}
+
+.commerce-img-one img {
+    position: absolute;
+    top: 0;
+    left: 41px;
+    width: 67%;
+    height: 64%;
+}
+
+.commerce-img-two img {
+    position: absolute;
+    top: 32%;
+    left: 34%;
+    height: 61%;
+    width: 65%;
+}
+
+.commerce-img-three img {
+    position: absolute;
+    top: 58%;
+    left: 14%;
+    height: 61%;
+    width: 57%;
+}
+
+
+/* //////commerce part end */
+
+
+/* ///// ecosystem part start */
+
+#ecosystem {
+    width: 100%;
+    height: 100%;
+}
+
+.ecosystem-text p {
+    font-size: 22px;
+    color: white;
+}
+
+.ecosystem-text h3 {
+    font-size: 70px;
+    width: 50px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.ecosystem-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eco-logo-one img {
+    width: 60%;
+}
+
+.eco-logo-one {
+    position: relative;
+}
+
+.ecosystem-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.eco-logo-one::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 42px;
+    width: 2px;
+    height: 65px;
+    background: white;
+}
+
+.ecosystem-img-one img {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    width: 77%;
+    height: 98vh;
+}
+
+.ecosystem-img-two img {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    height: 38%;
+    width: 57%;
+}
+
+.ecosystem-img-three img {
+    position: absolute;
+    top: 81%;
+    left: 14%;
+    height: 61%;
+    width: 57%;
+}
+
+
+/* /// ecosystem part end */
+
+
+/* product part start */
+
+#product {
+    width: 100%;
+    height: 100%;
+}
+
+.product-text p {
+    font-size: 22px;
+    color: white;
+}
+
+.product-text h3 {
+    font-size: 70px;
+    width: 50px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.product-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-logo-one img {
+    width: 60%;
+}
+
+.p-logo-one {
+    position: relative;
+}
+
+.product-video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.p-logo-one::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 42px;
+    width: 2px;
+    height: 65px;
+    background: white;
+}
+
+.product-video-one video {
+    position: absolute;
+    top: 42px;
+    left: -159px;
+    width: 100%;
+    height: 38%;
+}
+
+.product-video-two video {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    height: 75%;
+    width: 87%;
+}
+
+
+/* product part end */
+
+
+/* sandbox part start */
+
+#sandbox {
+    width: 100%;
+    height: 100%;
+}
+
+.sandbox-text p {
+    font-size: 22px;
+    color: white;
+}
+
+.sandbox-text h3 {
+    font-size: 70px;
+    width: 50px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.sandbox-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-logo-one img {
+    width: 60%;
+}
+
+.s-logo-one {
+    position: relative;
+}
+
+.sandbox-video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.s-logo-one::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 42px;
+    width: 2px;
+    height: 65px;
+    background: white;
+}
+
+.sandbox-video-one video {
+    position: absolute;
+    top: 42px;
+    left: 81px;
+    width: 100%;
+    height: 64%;
+}
+
+.sandbox-video-two video {
+    position: absolute;
+    top: 46%;
+    left: -13%;
+    height: 60%;
+    width: 87%;
+}
+
+
+/* sand box part end */
+
+
+/* contact part start */
+
+#contact {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-text p {
+    font-size: 18px;
+    color: white;
+}
+
+.contact-text h3 {
+    font-size: 70px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 110px;
+}
+
+.contact-main {
+    display: flex;
+    column-gap: 140px;
+    padding-top: 50px;
+}
+
+.contact-details h6 {
+    color: white;
+    font-size: 18px;
+}
+
+.contact-details p {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 16px;
+}
+
+.contact-details a {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 16px;
+}
+
+
+/* contact part end */
